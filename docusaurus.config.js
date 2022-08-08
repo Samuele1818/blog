@@ -12,7 +12,7 @@ const config = {
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
-  favicon: 'img/favicon.ico',
+  favicon: 'img/favicon.svg',
   
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
@@ -51,7 +51,7 @@ const config = {
     ],
   ],
   
-  plugins: ['@docusaurus/theme-live-codeblock', 'plugin-image-zoom',     [
+  plugins: ['@docusaurus/theme-live-codeblock', 'plugin-image-zoom', [
     require.resolve("@cmfcmf/docusaurus-search-local"),
     {
       indexDocs: false,
